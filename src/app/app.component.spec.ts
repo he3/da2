@@ -21,17 +21,17 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'App Meta'`, () => {
+  it(`should have as title 'da2'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('App Meta');
+    expect(app.title).toEqual('da2');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('App Meta');
+    expect(compiled.querySelector('.content span').textContent).toContain('da2');
   });
 
   it('should have slider', () => {
